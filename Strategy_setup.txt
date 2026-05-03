@@ -1,0 +1,105 @@
+Option 1:
+1. Moving Average Crossover (Trend Following)
+
+Idea: Ride trends, avoid chop.
+
+Use two moving averages (e.g., 20-period and 50-period)
+Buy when short MA crosses above long MA
+Sell when short MA crosses below long MA
+
+Why it works:
+Captures sustained moves in ETH, which often trends strongly.
+
+Weakness:
+Gets chopped up in sideways markets.
+
+
+--------------------------------------------------------------
+
+2. Support & Resistance Bounce
+
+Idea: ETH often respects key levels.
+
+Identify horizontal support/resistance zones
+Buy near support
+Sell near resistance
+
+Example logic:
+
+If price touches support + shows rejection → enter long
+If price hits resistance + stalls → exit or short
+
+Why it works:
+Crypto markets are very reactive to visible levels.
+
+Weakness:
+Levels can break hard (fake confidence).
+
+--------------------------------------------------------------
+
+3. RSI Mean Reversion
+
+Idea: Short-term overbought/oversold moves revert.
+
+Use RSI (14 period)
+Buy when RSI < 30
+Sell when RSI > 70
+
+Why it works:
+ETH often overextends in short timeframes.
+
+Weakness:
+Fails badly in strong trends (can stay overbought/oversold).
+
+
+
+
+4. Breakout Strategy
+
+Idea: Catch volatility expansion.
+
+Define a range (e.g., last 24h high/low)
+Buy when price breaks above high
+Sell when price breaks below low
+
+Optional filter:
+
+Only take breakout if volume increases
+
+Why it works:
+ETH frequently makes strong breakout moves.
+
+Weakness:
+Fake breakouts are common.
+
+
+
+
+5. Simple VWAP Strategy (Intraday)
+
+Idea: Institutions anchor around VWAP.
+
+Use VWAP (Volume Weighted Average Price)
+Buy when price is above VWAP and pulls back to it
+Sell when price loses VWAP
+
+Why it works:
+Good for intraday trading.
+
+Weakness:
+Not ideal for longer timeframes.
+
+
+
+6. Fixed % Grid (Very Simple Bot Style)
+
+Idea: Exploit volatility without prediction.
+
+Place buy orders every X% down (e.g., every 2%)
+Place sell orders every X% up
+
+Why it works:
+ETH is volatile → lots of oscillation.
+
+Weakness:
+Can get stuck if price trends strongly in one direction.
